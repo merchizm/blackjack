@@ -934,7 +934,7 @@ class BjModel
                 }
                 break;
         }
-        return array('success' => true, 'user' => json_encode($user));
+        return ['success' => true, 'user' => $user];
     }
 
 
